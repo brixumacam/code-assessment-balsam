@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SeleniumJava" parallel="false">
+    <test name="SearchAndPurchase">
+        <classes>
+            <class name="tests.PurchaseTest"/>
+        </classes>
+    </test>
+    <!--    <test name="Run Cucumber Scenarios">-->
+    <!--        <classes>-->
+    <!--            <class name="runners.TestRunner"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+</suite>
