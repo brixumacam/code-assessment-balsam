@@ -33,7 +33,7 @@ public class DriverFactory {
             case CHROME:
             default:
                 ChromeOptions options = new ChromeOptions();
-                options.addArguments("--headless=new"); // new headless mode (Chrome 109+)
+//                options.addArguments("--headless=new"); // new headless mode (Chrome 109+)
                 options.addArguments("--disable-gpu");
                 options.addArguments("--no-sandbox");
                 options.addArguments("--disable-dev-shm-usage");

@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="SeleniumJava" parallel="false">
+<suite name="SeleniumJava" parallel="tests" thread-count="3">
     <test name="SearchAndPurchase">
         <classes>
             <class name="tests.PurchaseTest"/>
