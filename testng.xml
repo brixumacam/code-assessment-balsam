@@ -1,6 +1,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="SeleniumJava" parallel="tests" thread-count="3">
-    <test name="SearchAndPurchase">
+<!--  If you want to run methods in parallel, change 'parallel="methods"' -->
+<suite name="ParallelTestSuite" parallel="tests" thread-count="3">
+    <test name="SearchAndPurchaseTest">
         <classes>
             <class name="tests.PurchaseTest"/>
         </classes>
