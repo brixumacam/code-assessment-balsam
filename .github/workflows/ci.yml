@@ -49,18 +49,18 @@ jobs:
       - name: Run Tests in Headless Mode
         run: mvn test -Dbrowser=chrome -Dheadless=true
 
-      - name: Upload Allure Results
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: allure-results
-          path: allure-results/
-
-      - name: Upload Screenshots and Logs
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: test-artifacts
-          path: |
-            screenshots/
-            logs/
+#      - name: Upload Allure Results
+#        if: always()
+#        uses: actions/upload-artifact@v4
+#        with:
+#          name: allure-results
+#          path: allure-results/
+#
+#      - name: Upload Screenshots and Logs
+#        if: always()
+#        uses: actions/upload-artifact@v4
+#        with:
+#          name: test-artifacts
+#          path: |
+#            screenshots/
+#            logs/
